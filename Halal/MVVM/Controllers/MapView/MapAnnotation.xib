@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gordita-Medium.otf">
+            <string>Gordita-Medium</string>
+        </array>
+        <array key="Gordita-Regular.otf">
+            <string>Gordita-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="AnnotationMapView" id="iN0-l3-epB" customClass="AnnotationMapView" customModule="Halal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="190" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jkhd kjashd sahkjd kjsad " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GuO-bb-UiK">
+                    <rect key="frame" x="5" y="90" width="180" height="15.5"/>
+                    <fontDescription key="fontDescription" name="Gordita-Regular" family="Gordita" pointSize="14"/>
+                    <color key="textColor" name="Color"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vdK-MW-yEz">
+                    <rect key="frame" x="5" y="5" width="180" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="Aar-Nh-gTO"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jkdshf kjsdh kdsh kjsdcksdj chkjdshc kjsd" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYV-JF-lHq">
+                    <rect key="frame" x="5" y="110.5" width="180" height="30.5"/>
+                    <fontDescription key="fontDescription" name="Gordita-Regular" family="Gordita" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0E0-wN-zVJ">
+                    <rect key="frame" x="5" y="171" width="53" height="16.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="53" id="O79-3p-Ujo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gordita-Medium" family="Gordita" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAz-29-qSN">
+                    <rect key="frame" x="0.0" y="0.0" width="190" height="200"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bk-lL-PfT">
+                    <rect key="frame" x="5" y="146" width="89" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="am2-mS-aih"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Get Direction">
+                        <color key="titleColor" name="Color"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsj-3l-Exa">
+                    <rect key="frame" x="63" y="169.5" width="122" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="vLK-ft-trz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Gordita-Regular" family="Gordita" pointSize="14"/>
+                    <color key="textColor" name="Color"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElS-pL-WwA">
+                    <rect key="frame" x="63" y="169.5" width="122" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="pvB-fL-ZBb"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8bk-lL-PfT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="0wF-ll-Zpt"/>
+                <constraint firstItem="8bk-lL-PfT" firstAttribute="top" secondItem="zYV-JF-lHq" secondAttribute="bottom" constant="5" id="78O-PI-5hN"/>
+                <constraint firstItem="ElS-pL-WwA" firstAttribute="centerX" secondItem="xsj-3l-Exa" secondAttribute="centerX" id="79E-uG-AbS"/>
+                <constraint firstAttribute="trailing" secondItem="vdK-MW-yEz" secondAttribute="trailing" constant="5" id="8XU-GR-yzw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xsj-3l-Exa" secondAttribute="trailing" constant="5" id="JoU-xD-40F"/>
+                <constraint firstItem="0E0-wN-zVJ" firstAttribute="top" secondItem="8bk-lL-PfT" secondAttribute="bottom" constant="5" id="MxX-g7-LLc"/>
+                <constraint firstItem="xsj-3l-Exa" firstAttribute="leading" secondItem="0E0-wN-zVJ" secondAttribute="trailing" constant="5" id="N6L-kL-wP5"/>
+                <constraint firstItem="vdK-MW-yEz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="Rke-DT-5J2"/>
+                <constraint firstItem="GuO-bb-UiK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="TQi-4a-YcP"/>
+                <constraint firstAttribute="trailing" secondItem="zYV-JF-lHq" secondAttribute="trailing" constant="5" id="Uoo-dp-jeg"/>
+                <constraint firstItem="ElS-pL-WwA" firstAttribute="leading" secondItem="xsj-3l-Exa" secondAttribute="leading" id="Yre-x0-Pmp"/>
+                <constraint firstItem="zYV-JF-lHq" firstAttribute="top" secondItem="GuO-bb-UiK" secondAttribute="bottom" constant="5" id="abw-c7-pD8"/>
+                <constraint firstAttribute="trailing" secondItem="ZAz-29-qSN" secondAttribute="trailing" id="ec5-qE-eKt"/>
+                <constraint firstItem="ZAz-29-qSN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="f54-eB-aOc"/>
+                <constraint firstItem="ZAz-29-qSN" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="gKa-5p-c2D"/>
+                <constraint firstItem="zYV-JF-lHq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="gpL-5Y-hhH"/>
+                <constraint firstItem="GuO-bb-UiK" firstAttribute="top" secondItem="vdK-MW-yEz" secondAttribute="bottom" constant="5" id="h7W-pn-KaZ"/>
+                <constraint firstItem="xsj-3l-Exa" firstAttribute="centerY" secondItem="0E0-wN-zVJ" secondAttribute="centerY" id="hV5-Wy-C72"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="GuO-bb-UiK" secondAttribute="trailing" constant="5" id="n42-NZ-HM1"/>
+                <constraint firstItem="ZAz-29-qSN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="vIf-Cr-5PZ"/>
+                <constraint firstItem="0E0-wN-zVJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="wE6-5R-0Ta"/>
+                <constraint firstItem="ElS-pL-WwA" firstAttribute="centerY" secondItem="xsj-3l-Exa" secondAttribute="centerY" id="wP1-nQ-q33"/>
+                <constraint firstItem="vdK-MW-yEz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="xYW-RN-uoW"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnDirection" destination="8bk-lL-PfT" id="oN3-ok-jx8"/>
+                <outlet property="btnNext" destination="ZAz-29-qSN" id="SS3-Bq-2PI"/>
+                <outlet property="btnPhn" destination="ElS-pL-WwA" id="U7o-zl-IE9"/>
+                <outlet property="imgResturant" destination="vdK-MW-yEz" id="3ar-js-ey5"/>
+                <outlet property="lblPhone" destination="xsj-3l-Exa" id="PXk-Dc-0KZ"/>
+                <outlet property="lblResAddress" destination="zYV-JF-lHq" id="949-fM-GWb"/>
+                <outlet property="lblResName" destination="GuO-bb-UiK" id="NO8-l2-sh4"/>
+            </connections>
+            <point key="canvasLocation" x="-57.971014492753625" y="-208.25892857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Color">
+            <color red="0.019607843137254902" green="0.72549019607843135" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

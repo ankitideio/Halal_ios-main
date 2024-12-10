@@ -1,0 +1,20 @@
+${PODS_ROOT}/Target Support Files/Pods-Halal/Pods-Halal-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework
+${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework
+${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework
+${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework
+${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework
+${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/Loaf/Loaf.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/MapViewPlus/MapViewPlus.framework
+${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework
+${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework
